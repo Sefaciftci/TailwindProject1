@@ -15,15 +15,24 @@
 </head>
 <body>
   <!--Header-->
-  <header class="bg-black py-9 text-white font-loto uppercase">
+  <header class="bg-black py-6 lg:py-9 text-white font-loto uppercase">
     <!--Header Container -->
   <div class="container flex space-b justify-between items-center">
     <!--Logo-->
-    <a href="#" class="text-5xl">LOGO</a>
+    <a href="#" class="pl-4 md:pl-0 text-2xl lg:text-4xl font-semibold">LOGO</a>
+
+    <!--Mobile Menu-->
+    <div class="block md:hidden">
+      <div class="space-y-1 cursor-pointer pr-4">
+        <div class="bg-white w-8 h-1 rounded-full"></div>
+        <div class="bg-white w-8 h-1 rounded-full"></div> 
+        <div class="bg-white w-8 h-1 rounded-full"></div>
+      </div>
+    </div>
     <!--Navbar Seciton-->
-    <nav class="flex space-x-10 items-center">
+    <nav class="hidden md:flex space-x-5 lg:space-x-10 items-center">
       <!--Menu-->
-      <div class="space-x-5 text-lg">
+      <div class="space-x-3 lg:space-x-5 lg:text-lg mx-3 lg:mx-6">
         <a href="#">Movies</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
@@ -33,8 +42,8 @@
       <div>
         <form>
           <div>
-            <input type="text" class="focus:outline-none"/>
-            <button class="mx-2"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+            <input type="text" class="rounded-lg"/>
+            <button class="mx-2 hover:text-red-500 duration-500"> <i class="fa-solid fa-magnifying-glass"></i> </button>
           </div>
         </form>
       </div>
