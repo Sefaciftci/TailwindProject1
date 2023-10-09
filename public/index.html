@@ -14,12 +14,12 @@
   <link href="/public/style.css" rel="stylesheet">
 </head>
 <body>
-  <!--Header-->
+  <!--Header Section-->
   <header class="bg-black py-6 lg:py-9 text-white font-loto uppercase">
     <!--Header Container -->
   <div class="container flex space-b justify-between items-center">
     <!--Logo-->
-    <a href="#" class="pl-4 md:pl-0 text-2xl lg:text-4xl font-semibold">LOGO</a>
+    <a href="#" class="pl-4 md:pl-0 text-2xl lg:text-4xl font-semibold">DUNE</a>
 
     <!--Mobile Menu-->
     <div class="block md:hidden">
@@ -33,9 +33,9 @@
     <nav class="hidden md:flex space-x-5 lg:space-x-10 items-center">
       <!--Menu-->
       <div class="space-x-3 lg:space-x-5 lg:text-lg mx-3 lg:mx-6">
-        <a href="#">Movies</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="#">Movie</a>
+        <a href="#">Actors</a>
+        <a href="#">Blog</a>
         <a href="#">More</a>
       </div>
       <!--Search Seciton-->
@@ -51,5 +51,31 @@
   </div>
   </header>
   
+  <!--Hero Seciton-->
+  <section class=" h-96 lg:h-128 group relative">
+    <!--Hero Image-->
+    <img src="./images/dune2.jpg" alt="heroimg" class="h-full w-full object-cover "/>
+    <!--Hero Content-->
+    <div class="absolute bottom-0 w-full bg-gradient-to-b from-transparent to-black">
+      <div class="container">
+        <h3 class="text-white text-4xl lg:text-6xl group-hover:mb-1 duration-500 tracking-wider	">DUNE: PART II 
+        </h3>
+        <p class=" text-white text-sm lg:text-base group-hover:mb-1 duration-500 mt-4 w-3/4 lg:w-2/3">
+          Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.
+        </p>  
+        <!--Detail Container-->
+        <div class="flex space-x-2 lg:space-x-5 opacity-0 group-hover:opacity-100 items-center text-center cursor-pointer group-hover:mb-1 duration-500 mt-2 lg:mt-4">
+          <a href="https://www.youtube.com/watch?v=Way9Dexny3w" class="text-white uppercase mb-4 mt-5 text-sm lg:text-lg">Watch Trailer</a>
+          <div class="flex h-5 w-5 lg:h-7 lg:w-7 rounded-full text-center items-center justify-center bg-black text-white">
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  
+
 </body>
 </html>

@@ -13,6 +13,10 @@ module.exports = {
       
       colors : {
         'darkPurple' : '#82456C'
+      },
+      //height
+      spacing : {
+        128 : '32rem'
       }
     },
   },
