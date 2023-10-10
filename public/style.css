@@ -1025,6 +1025,10 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 @media (min-width: 768px) {
+  .md\:ml-0 {
+    margin-left: 0px;
+  }
+
   .md\:flex {
     display: flex;
   }
